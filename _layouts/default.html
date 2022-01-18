@@ -150,9 +150,9 @@
             <br> Etichete: 
             {% for tag in page.tags %}
                 {% if forloop.last %}
-                    <a href="/browse-tags.html#{{ tag }}">{{ tag }}</a> 
+                    <a href="/blog/browse-tags.html#{{ tag }}">{{ tag }}</a> 
                 {% else %}
-                    <a href="/browse-tags.html#{{ tag }}">{{ tag }}</a>, 
+                    <a href="/blog/browse-tags.html#{{ tag }}">{{ tag }}</a>, 
                 {% endif %}
             {% endfor %}
           {% endif %}
