@@ -146,10 +146,10 @@
           {{ page.date | date: "%Y" }}
         </span>
         <span>
-          {% if tags %}
+          {% if page.tags %}
             <br> Etichete: 
             {% for tag in page.tags %}
-                {% if forloop.last %}
+                {% if forloop.last == true %}
                     <a href="/blog/browse-tags.html#{{ tag }}">{{ tag }}</a> 
                 {% else %}
                     <a href="/blog/browse-tags.html#{{ tag }}">{{ tag }}</a>, 
