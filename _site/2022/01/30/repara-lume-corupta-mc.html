@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/blog/style.css">
-<title>Etichete - Gugălcrom Blog</title>
+<title>Cum să repari o lume coruptă de Minecraft - Gugălcrom Blog</title>
 </head>
 <body>
     <header>
@@ -45,7 +45,7 @@
                   </div>
             </div>
         </div>
-    <h1>Etichete</h1>
+    <h1>Cum să repari o lume coruptă de Minecraft</h1>
     </header>
     <main>
       <aside class="sidebar">
@@ -127,55 +127,50 @@
         <!-- Transform date to Romanian format -->
         <span class="date">
           
+          duminică,
           
           
-          
+          30
 
           
-          
+          ianuarie
+              
 
-          
+          2022
         </span>
         <span>
           
+            <br> Etichete: 
+            
+                
+                    <a href="/blog/browse-tags.html#minecraft">minecraft</a>, 
+                
+            
+                
+                    <a href="/blog/browse-tags.html#server">server</a> 
+                
+            
+          
         </span>
-        
-  <a href="#site">
-    <h2 id="site">site</h2>
-  </a>
-  <ul>
-    
-      <li><a href="/2022/01/17/ce-este-asta.html">Ce este asta?</a></li>
-    
-  </ul>
+        <p>Mi s-a întâmplat și am găsit singur o soluție, de asta scriu aici. Dacă și ție ți s-a întâmplat, nu intra în panică. Metoda e foarte simplă. Mai jos vezi cum se face.</p>
 
-  <a href="#jekyll">
-    <h2 id="jekyll">jekyll</h2>
-  </a>
-  <ul>
-    
-      <li><a href="/2022/01/17/ce-este-asta.html">Ce este asta?</a></li>
-    
-  </ul>
+<p>În primul rând, dacă lumea este pe un server, trebuie copiată pe calculatorul tău printr-o conexiune SSH sau FTP.</p>
 
-  <a href="#minecraft">
-    <h2 id="minecraft">minecraft</h2>
-  </a>
-  <ul>
-    
-      <li><a href="/2022/01/30/repara-lume-corupta-mc.html">Cum să repari o lume coruptă de Minecraft</a></li>
-    
-  </ul>
+<p>Apoi, trebuie să ai un backup mai vechi al lumii. Dacă nu există, mergi în Minecraft, dă clic pe lume și alege Recreează. Va crea o lume nouă cu același seed și aceleași setări.</p>
 
-  <a href="#server">
-    <h2 id="server">server</h2>
-  </a>
-  <ul>
-    
-      <li><a href="/2022/01/30/repara-lume-corupta-mc.html">Cum să repari o lume coruptă de Minecraft</a></li>
-    
-  </ul>
+<p>Cu copia lumii făcută, deschide fișierul lumii. Este în <code class="language-plaintext highlighter-rouge">/home/user/.minecraft/saves</code> pe Linux. În Windows, deschide <em>Run</em> și tastează <code class="language-plaintext highlighter-rouge">C:\Users\user\AppData\Roaming\.minecraft</code>.</p>
 
+<p>Din el, copiază dosarele:</p>
+<ul>
+  <li>DIM1</li>
+  <li>DIM-1</li>
+  <li>region</li>
+  <li>entities</li>
+  <li>playerdata
+în copia lumii. Se găsește în aceeași locație.</li>
+</ul>
+
+<p>Acum, ar trebui să fie gata și lumea să poată fi jucată din nou. Dacă era pe un server, încarc-o din nou.</p>
 
             <a href=""></a>
       </article>
