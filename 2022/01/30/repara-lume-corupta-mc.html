@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/blog/style.css">
+<title>Cum să repari o lume coruptă de Minecraft - Gugălcrom Blog</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="/">Site-ul principal</a></li>
+        </ul>
+    </nav>
+    <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            <span class="material-icons" style="font-size: 36px">menu</span>
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <div id="menu">
+              <ul>
+                <li><a href="/blog">Acasă</a></li>
+                <li class="mobile-post-link">Cele mai recente</li>
+                
+                                <li>
+                                    <a href="/2022/01/30/repara-lume-corupta-mc.html" class="mobile-post-link">Cum să repari o lume coruptă de Minecraft</a>
+                                </li>
+                                
+                            
+                                <li>
+                                    <a href="/2022/01/17/ce-este-asta.html" class="mobile-post-link">Ce este asta?</a>
+                                </li>
+                                
+                            
+                <li><a href="/blog/browse-tags.html">Caută după etichete</a></li>
+                <li><a href="/">Site-ul principal</a></li>
+                    <ul>
+                  </div>
+            </div>
+        </div>
+    <h1>Cum să repari o lume coruptă de Minecraft</h1>
+    </header>
+    <main>
+      <aside class="sidebar">
+        <div class="inner">
+          <br><a href="/blog">Acasă</a><br>
+          <div id="recent-posts">
+              <h3>Cele mai recente</h3>
+              <ul>
+                  
+                      <li>
+                          <!-- Transform date to Romanian format -->
+                          <span class="date">
+                              
+                              duminică,
+                              
+                              
+                              30
+                  
+                              
+                              ianuarie
+                                  
+                  
+                              2022
+                          </span><br>
+                          <a href="/2022/01/30/repara-lume-corupta-mc.html">Cum să repari o lume coruptă de Minecraft</a>
+                      </li>
+                      
+                  
+                      <li>
+                          <!-- Transform date to Romanian format -->
+                          <span class="date">
+                              
+                              luni,
+                                  
+                              
+                              17
+                  
+                              
+                              ianuarie
+                                  
+                  
+                              2022
+                          </span><br>
+                          <a href="/2022/01/17/ce-este-asta.html">Ce este asta?</a>
+                      </li>
+                      
+                  
+              </ul>
+          </div>
+          <div id="tags">
+            <h3>După etichete</h3>
+              
+                  
+                    <a href="/blog/browse-tags.html#site">site</a>
+                  
+                  
+              
+                  
+                     • <a href="/blog/browse-tags.html#jekyll">jekyll</a>
+                  
+                  
+              
+                  
+                     • <a href="/blog/browse-tags.html#minecraft">minecraft</a>
+                  
+                  
+              
+                  
+                     • <a href="/blog/browse-tags.html#server">server</a>
+                  
+                  
+              
+            <br>
+            <a href="/blog/browse-tags.html">Toate etichetele</a>
+        </div>
+        </div>
+    </aside>
+      <article class="content">
+        <!-- Transform date to Romanian format -->
+        <span class="date">
+          
+          duminică,
+          
+          
+          30
+
+          
+          ianuarie
+              
+
+          2022
+        </span>
+        <span>
+          
+            <br> Etichete: 
+            
+                
+                    <a href="/blog/browse-tags.html#minecraft">minecraft</a>, 
+                
+            
+                
+                    <a href="/blog/browse-tags.html#server">server</a> 
+                
+            
+          
+        </span>
+        <p>Mi s-a întâmplat și am găsit singur o soluție, de asta scriu aici. Dacă și ție ți s-a întâmplat, nu intra în panică. Metoda e foarte simplă. Mai jos vezi cum se face.</p>
+
+<p>În primul rând, dacă lumea este pe un server, trebuie copiată pe calculatorul tău printr-o conexiune SSH sau FTP.</p>
+
+<p>Apoi, trebuie să ai un backup mai vechi al lumii. Dacă nu există, mergi în Minecraft, dă clic pe lume și alege Recreează. Va crea o lume nouă cu același seed și aceleași setări.</p>
+
+<p>Cu copia lumii făcută, deschide fișierul lumii. Este în <code class="language-plaintext highlighter-rouge">/home/user/.minecraft/saves</code> pe Linux. În Windows, deschide <em>Run</em> și tastează <code class="language-plaintext highlighter-rouge">C:\Users\user\AppData\Roaming\.minecraft</code>.</p>
+
+<p>Din el, copiază dosarele:</p>
+<ul>
+  <li>DIM1</li>
+  <li>DIM-1</li>
+  <li>region</li>
+  <li>entities</li>
+  <li>playerdata
+în copia lumii. Se găsește în aceeași locație.</li>
+</ul>
+
+<p>Acum, ar trebui să fie gata și lumea să poată fi jucată din nou. Dacă era pe un server, încarc-o din nou.</p>
+
+            <a href=""></a>
+      </article>
+    </main>
+    <footer>
+        <h2>Gugălcrom</h2>
+        <ul>
+            <li><a href="https://Secret-chest.github.io">GitHub</a></li>
+            <li><a href="https://scratch.mit.edu/users/mumu245">Scratch</a></li>
+            <li><a href="https://www.youtube.com/channel/UCtmGKrFtyfTlhpX9X8ktb8Q">YouTube</a></li>
+            <li class="gray">switchtolinux.today</li>
+        </ul>
+    </footer>
+<script src="/ripples.js"></script>
+</body>
+</html>
